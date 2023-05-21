@@ -12,13 +12,14 @@ package Entidad;
  * @author Ruben
  */
 public class ParDeNumeros {
-   double numero1;
+
+    double numero1;
     double numero2;
 
-    public ParDeNumeros(){
-    this.numero1 =Math.random()*100;
-    this.numero2 =Math.random()*100;
-}
+    public ParDeNumeros() {
+        this.numero1 = Math.random() * 10;
+        this.numero2 = Math.random() * 10;
+    }
 
     public ParDeNumeros(int numero1, int numero2) {
         this.numero1 = numero1;

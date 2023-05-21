@@ -16,10 +16,9 @@ d) Método calculaRaiz, para calcular la raíz cuadrada del menor de los
 dos valores. Antes de calcular la raíz cuadrada se debe obtener el
 valor absoluto del número.
  */
-
 package MainParDeNumeros;
 
-import Servicios.ParDeNumerosSrvicios;
+import Servicios.ParDeNumerosServicios;
 
 /**
  *
@@ -28,8 +27,11 @@ import Servicios.ParDeNumerosSrvicios;
 public class Guia9Eje2 {
 
     public static void main(String[] args) {
-       ParDeNumerosSrvicios num1=new ParDeNumerosSrvicios();
-       
-       num1.mostrarValores();
+        ParDeNumerosServicios num1 = new ParDeNumerosServicios();
+
+        num1.mostrarValores();
+        num1.devolverMayor();
+        int calcularPotencia = num1.calcularPotencia();
+        num1.calculaRaiz();
     }
 }
